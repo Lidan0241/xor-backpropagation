@@ -1,9 +1,0 @@
-{
-  "dataset_path" : "xor_train.csv",
-  "nb_input"     : 2,
-  "nb_hidden"    : 2,
-  "nb_output"    : 1,
-  "learning_rate": 0.5,
-  "epochs"       : 3000
-
-}
