@@ -5,9 +5,9 @@ Ce projet met en œuvre un perceptron multicouche (MLP) de type **2-2-1** pour a
 - Génération d'un dataset XOR bruité
 `python3 generate_xor_dataset.py -n 100 -p 0.2 -o xor_dataset/xor_20.csv`
 
--n : nombre d'exemples
--p : proportion de bruit (entre 0 et 1)
--o : nom de fichier de sortie
+- `-n` : nombre d'exemples
+- `-p` : proportion de bruit (entre 0 et 1)
+- `-o` : nom de fichier de sortie
 
 - Entraînement du MLP
 `python3 mlp_train.py config.json xor_dataset/xor_20.csv --seed 42`
