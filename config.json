@@ -1,0 +1,6 @@
+{
+  "layers": [2, 2, 1],     
+  "learning_rate": 0.5,
+  "epochs": 5000,
+  "target_mse": 0.01
+}
